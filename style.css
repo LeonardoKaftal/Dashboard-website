@@ -12,7 +12,7 @@ html {
 p 
 {
     font-family: 'Roboto', sans-serif;    
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.6;
 }
 h1
@@ -50,4 +50,132 @@ h6
     font-family: 'Poppins', sans-serif;
     
     line-height: 1.6;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 150px;
+}
+/* nav */
+nav {
+    height: 100%;
+}
+/* searchbar */
+.nav-searchbar-personal-area-container {
+    display: flex;   
+    height: 50%;
+}
+.nav-searchbar-personal-area-container > * {
+    margin-top: 1rem;
+}
+
+.nav-searchbar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 45%;
+    width: 70%;
+}
+.nav-search-icon-container {
+    position: relative;
+    left: 2rem;
+}
+#nav-searchbar {
+    width: 85%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(228, 227, 227);
+    margin-left: 3.5rem;
+    border: none;
+    padding-left: 1.1rem;
+}
+#nav-searchbar:focus {
+    border: none;
+}
+#nav-search-icon {
+    margin-left: 1rem;
+}   
+.nav-personal-area-container {
+    position: relative;
+    left: 150px;
+    display: inline-flex;
+    align-items: center;
+    height: 45%;
+}
+
+.nav-personal-area-container > * {
+    margin-left: 2rem;
+}
+
+/* nav */
+.nav-greetings-link-flexcontainer {
+    display: flex;
+}
+.nav-greetings-container {
+    position: relative;
+    display: flex;
+    height: 50%;
+    width: 40%;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.nav-greetings-container h4 {
+    position: absolute;
+    left: 17.5%;
+    margin-top: 0.6rem;
+}
+.nav-user-subtitle-container {
+    align-self: flex-start;
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
+}
+#nav-user-icon {
+    margin-left: 1.5rem;
+    width: 75px;
+    height: 75px;
+}
+
+.nav-link-grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 5px;
+    justify-content: end;
+    margin-top: 1.5rem;
+    width: 60%;
+}
+
+.nav-link-container-item {
+    display: flex;
+    background-color: rgb(51, 166, 233);
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 3rem;
+    padding: 1.3rem;
+}
+.nav-link-container-item a {
+    text-decoration: none;
+    color: white;
+}
+
+/* end of the header */
+/* aside */
+
+aside {
+    background-color: rgb(51, 166, 233);
+}
+.aside-logo-flex-container {
+    display: flex;
+    justify-content: center;
+}
+.aside-logo-flex-container > * {
+    margin-top: 0.8rem;
+}
+.aside-title-container h3 {
+    color: white;
+}
+#aside-logo {
+    margin-right: 0.5rem;
+    width: 50px;
+    height: 50px;
 }
